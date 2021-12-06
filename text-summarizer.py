@@ -3,7 +3,8 @@
 
 #run in a virtual environment with python3.9,  nltk, numpy, scipy, and networkx installed
 #command is "python3.9 text-summarization.py"
-#virtual environment reference: https://dev.to/bowmanjd/python-tools-for-managing-virtual-environments-3bko#virtualenv
+#virtual environment reference: 
+#https://dev.to/bowmanjd/python-tools-for-managing-virtual-environments-3bko#use-raw-venv-endraw-included-in-python
 
 import nltk
 from nltk.corpus import stopwords
