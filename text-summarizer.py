@@ -2,7 +2,7 @@
 # coding: utf-8
 
 #run in a virtual environment with python3.9,  nltk, numpy, scipy, and networkx installed
-#command is "python3.9 text-summarization.py"
+#command is "python text-summarizer.py"
 #virtual environment reference: 
 #https://dev.to/bowmanjd/python-tools-for-managing-virtual-environments-3bko#use-raw-venv-endraw-included-in-python
 
@@ -90,4 +90,5 @@ def generate_summary(file_name, top_n=5):
     print("Summarize Text: \n", ". ".join(summarize_text))
 
 # run summarization routine
-generate_summary( "./data/msu-news-algo.txt", 2)
+#generate_summary( "./data/msu-news-algo.txt", 2)
+generate_summary( "./data/cu-news-breathing-muscles.txt", 2)
